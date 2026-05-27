@@ -6,12 +6,12 @@ Thumbs.db
 *~
 
 # IDE and editor files
-.idea/
-*.iml
-.vscode/
-*.code-workspace
-*.swp
-*.swo
+.idea/                  # JetBrains IDE settings
+*.iml                   # JetBrains module files
+.vscode/                # Visual Studio Code settings
+*.code-workspace        # Visual Studio Code workspace
+*.swp                   # Vim swap files
+*.swo                   # Vim swap files (secondary)
 
 # Build artifacts
 /target
