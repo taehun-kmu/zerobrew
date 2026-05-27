@@ -1,5 +1,42 @@
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*~
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# Build artifacts
 /target
 **/*.rs.bk
 test_zb/
+
+# Site
 /site/node_modules
 /site/_site
+
+# Tooling caches
+.codegraph/
+
+# Local working directories
+/context/
+/setup/
+/design/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
