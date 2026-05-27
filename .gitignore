@@ -1,5 +1,38 @@
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*~
+
+# IDE and editor files
+.idea/                  # JetBrains IDE settings
+*.iml                   # JetBrains module files
+.vscode/                # Visual Studio Code settings
+*.code-workspace        # Visual Studio Code workspace
+*.swp                   # Vim swap files
+*.swo                   # Vim swap files (secondary)
+
+# Build artifacts
 /target
 **/*.rs.bk
 test_zb/
-/site/node_modules
 /site/_site
+*.log
+logs/
+
+# Dependencies
+/site/node_modules
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Project-specific
+.codegraph/
+/context/
+/setup/
+/design/
