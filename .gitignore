@@ -17,18 +17,12 @@ Thumbs.db
 /target
 **/*.rs.bk
 test_zb/
-
-# Site
-/site/node_modules
 /site/_site
+*.log
+logs/
 
-# Tooling caches
-.codegraph/
-
-# Local working directories
-/context/
-/setup/
-/design/
+# Dependencies
+/site/node_modules
 
 # Environment and secrets
 .env
@@ -37,6 +31,8 @@ test_zb/
 *.pem
 *.key
 
-# Logs
-*.log
-logs/
+# Project-specific
+.codegraph/
+/context/
+/setup/
+/design/
